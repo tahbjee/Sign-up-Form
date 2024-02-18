@@ -1,6 +1,5 @@
 :root {
   font-size: 16px;
-  /* background-color: black; */
 }
 
 body {
@@ -29,12 +28,6 @@ section {
   width: 40%;
   background-color: rgb(204, 227, 247);
 }
-
- main p:first-child {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
- }
 
 .header-text {
   font-size: 1.4rem;
