@@ -29,7 +29,7 @@
 
       <p class="header-text">Let's do this!</p>
       <section>
-        <form action="/my-handling-form-page" method="post">
+        <form action="#" method="post">
           <ul>
             <li>
               <label for="first-name">FIRST NAME</label>
@@ -37,7 +37,10 @@
                 type="text"
                 id="first-name"
                 name="user_name"
-                placeholder="James"
+                placeholder="James" 
+
+                required
+
               />
             </li>
             <li>
@@ -47,6 +50,8 @@
                 id="last-name"
                 name="user_last-name"
                 placeholder="Willians"
+
+                required
               />
             </li>
             <li>
@@ -56,6 +61,8 @@
                 id="mail"
                 name="mail"
                 placeholder="example@example.com"
+
+                required
               />
             </li>
           </ul>
@@ -64,7 +71,7 @@
               <label for="phone-number">PHONE NUMBER</label>
               <input
                 type="tel"
-                id="phone-number"
+                id="user-number"
                 name="user_phone"
                 placeholder="123-456-7890"
               />
@@ -76,15 +83,18 @@
                   id="password"
                   name="user-password"
                   min="1"
+                  placeholder="12345@Hi"
+                  required
                 />
             </li>
             <li>
               <label for="password">CONFIRM PASSWORD</label>
               <input
-                type="confirm"
-                id="password2"
+                type="password"
+                id="comfirm"
                 name="user-password"
                 min="1"
+                required
               />
             </li>
           </ul>
