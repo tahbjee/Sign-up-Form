@@ -43,9 +43,9 @@ section {
 main p:nth-child(3) {
   margin-top: 3rem;
 }
-section form {
+/* section form {
   display: flex;
-}
+} */
 
 form {
   display: flex;
@@ -73,7 +73,6 @@ input {
 
 label {
   width: 20em;
-  text-align: left;
   text-align: left;
 }
 
