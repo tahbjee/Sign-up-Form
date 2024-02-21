@@ -11,6 +11,9 @@ This is a simple sign-up form created using HTML and CSS.
 ## Overview
 This sign-up form is designed for an online service. It includes fields for the user's first name, last name, email, phone number, password, and confirm password.
 
+## Live preview / demo
+- https://tahbjee.github.io/Sign-up-Form/
+  
 ## Features
 - Responsive design
 - Validated input fields
